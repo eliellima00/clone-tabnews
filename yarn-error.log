@@ -1,0 +1,43 @@
+Arguments: 
+  /home/eliel/.nvm/versions/node/v18.16.0/bin/node /mnt/c/Program Files (x86)/Yarn/bin/yarn.js add
+
+PATH: 
+  /home/eliel/.vscode-server/bin/74f6148eb9ea00507ec113ec51c489d6ffb4b771/bin/remote-cli:/home/eliel/.nvm/versions/node/v18.16.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/CanonicalGroupLimited.Ubuntu20.04onWindows_2004.2020.424.0_x64__79rhkp1fndgsc:/mnt/c/Python311/Scripts/:/mnt/c/Python311/:/mnt/c/Python27/:/mnt/c/Python27/Scripts:/mnt/c/Python310/Scripts/:/mnt/c/Python310/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/c/php:/mnt/c/instantclient:/mnt/c/Program Files/PuTTY/:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Users/eliel.lima/AppData/Roaming/npm:/mnt/c/Program Files (x86)/Yarn/bin/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/OpenJDK/openjdk-11.0.16_8/bin:/mnt/c/Program Files/Amazon/AWSCLIV2/:/mnt/c/Program Files/nodejs/:/mnt/c/ProgramData/ComposerSetup/bin:/mnt/c/Users/eliel.lima/AppData/Roaming/Composer/vendor/bin:/mnt/c/Users/eliel.lima/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/eliel.lima/AppData/Local/Yarn/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2021.3.1/bin:/mnt/c/Users/eliel.lima/AppData/Local/Android/Sdk/platform-tools:/snap/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  18.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/eliel/projetos-estudos/clone-tabnews/package.json: Unexpected token / in JSON at position 239
+      at JSON.parse (<anonymous>)
+      at /mnt/c/Program Files (x86)/Yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/mnt/c/Program Files (x86)/Yarn/lib/cli.js:310:30)
+      at /mnt/c/Program Files (x86)/Yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "clone-tabnews",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/eliellima00/clone-tabnews.git",
+    "author": "eliellima00 <eliellimamatos@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+      //"next": "^13.1.6",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
